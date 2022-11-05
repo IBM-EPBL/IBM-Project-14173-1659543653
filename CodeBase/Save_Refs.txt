@@ -1,0 +1,14 @@
+DRIVER={IBM DB2 ODBC DRIVER};DATABASE=bludb;HOSTNAME=b1bc1829-6f45-4cd4-bef4-10cf081900bf.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud;PORT=30387;PROTOCOL=TCPIP;UID=dgr67209;PWD=j2tumTd02JOhqtj7;
+
+
+bludb;b1bc1829-6f45-4cd4-bef4-10cf081900bf.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud;32304;TCPIP;dgr67209;j2tumTd02JOhqtj7;
+
+DRIVER={IBM DB2 ODBC DRIVER}
+
+https://html-css-js.com/css/generator/box-shadow/
+
+DATABASE=bludb;HOSTNAME="b1bc1829-6f45-4cd4-bef4-10cf081900bf.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud";PORT=32304;PROTOCOL=TCPIP;UID=dgr67209;PWD=j2tumTd02JOhqtj7;
+
+https://www.tutorialspoint.com/sqlite/sqlite_python.htm
+
+https://www.html.am/html-editors/online-html-editor.cfm
