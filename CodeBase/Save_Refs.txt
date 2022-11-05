@@ -12,3 +12,7 @@ DATABASE=bludb;HOSTNAME="b1bc1829-6f45-4cd4-bef4-10cf081900bf.c1ogj3sd0tgtu0lqde
 https://www.tutorialspoint.com/sqlite/sqlite_python.htm
 
 https://www.html.am/html-editors/online-html-editor.cfm
+
+https://suedbroecker.net/2019/03/05/how-to-deploy-a-container-to-the-ibm-cloud-kubernetes-service/
+
+https://cloud.ibm.com/docs/Registry?topic=Registry-getting-started
