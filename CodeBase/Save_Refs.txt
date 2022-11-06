@@ -15,4 +15,23 @@ https://www.html.am/html-editors/online-html-editor.cfm
 
 https://suedbroecker.net/2019/03/05/how-to-deploy-a-container-to-the-ibm-cloud-kubernetes-service/
 
-https://cloud.ibm.com/docs/Registry?topic=Registry-getting-started
+https://cloud.ibm.com/docs/Registry?topic=Registry-getting-startedd
+
+https://www.ibm.com/blogs/cloud-archive/2019/04/kubernetes-deployments-get-started-fast/
+
+docker images
+docker build -t plasmadonation .
+docker run -d -p 5000:5000 plasmadonation:latest
+docker-machine ip
+docker container ls
+docker kill <Container>
+
+
+ibmcloud login
+--Region us-south
+ibmcloud cr login --client docker
+ibmcloud cr namespace-list
+ibmcloud cr image-list
+docker tag plasmaappdocker:latest us.icr.io/plasmadonation/plasmaappdocker:latest
+docker push us.icr.io/plasmadonation/plasmaappdocker:latest
+ibmcloud cr namespace-list

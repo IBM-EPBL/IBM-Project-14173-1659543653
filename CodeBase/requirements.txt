@@ -1,4 +1,1 @@
 Flask
-ibm_db
-sendgrid
-python-dotenv
