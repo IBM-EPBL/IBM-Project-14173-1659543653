@@ -1,0 +1,20 @@
+ apiVersion: apps/v1
+ kind: Deployment
+ metadata:
+   name: plasma-14173-1659543653-deployment
+ spec:
+   replicas: 1
+   selector:
+     matchLabels:
+       app: plasmadonationnode
+   template:
+     metadata:
+       labels:
+         app: plasmadonationnode
+     spec:
+       containers:
+       - name: plasmadonationnode
+         image: us.icr.io/plasmadonation/plasmadonation
+         imagePullPolicy: Always
+         ports:
+         - containerPort: 5000

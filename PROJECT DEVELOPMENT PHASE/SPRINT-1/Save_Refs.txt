@@ -1,0 +1,71 @@
+DRIVER={IBM DB2 ODBC DRIVER};DATABASE=bludb;HOSTNAME=b1bc1829-6f45-4cd4-bef4-10cf081900bf.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud;PORT=30387;PROTOCOL=TCPIP;UID=dgr67209;PWD=j2tumTd02JOhqtj7;
+
+
+bludb;b1bc1829-6f45-4cd4-bef4-10cf081900bf.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud;32304;TCPIP;dgr67209;j2tumTd02JOhqtj7;
+
+DRIVER={IBM DB2 ODBC DRIVER}
+
+https://html-css-js.com/css/generator/box-shadow/
+
+DATABASE=bludb;HOSTNAME="b1bc1829-6f45-4cd4-bef4-10cf081900bf.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud";PORT=32304;PROTOCOL=TCPIP;UID=dgr67209;PWD=j2tumTd02JOhqtj7;
+
+https://www.tutorialspoint.com/sqlite/sqlite_python.htm
+
+https://www.html.am/html-editors/online-html-editor.cfm
+
+https://suedbroecker.net/2019/03/05/how-to-deploy-a-container-to-the-ibm-cloud-kubernetes-service/
+
+https://cloud.ibm.com/docs/Registry?topic=Registry-getting-startedd
+
+https://www.ibm.com/blogs/cloud-archive/2019/04/kubernetes-deployments-get-started-fast/
+
+https://cloud.ibm.com/docs/cli/reference/ibmcloud_cli/get_started.html#getting-started
+
+https://kubernetes.io/docs/tasks/tools/
+
+ibmcloud plugin repo-plugins -r "IBM Cloud"
+
+ibmcloud plugin update --all -r REPO_NAME
+
+ibmcloud plugin list
+
+docker images
+docker build -t plasmadonation .
+docker run -d -p 5000:5000 plasmadonation:latest
+docker-machine ip
+docker container ls
+docker kill <Container>
+
+
+ibmcloud login
+--Region us-south
+ibmcloud cr login --client docker
+ibmcloud cr namespace-list
+ibmcloud cr image-list
+docker tag plasmadonation:latest us.icr.io/plasmadonation/plasmadonation:latest
+docker push us.icr.io/plasmadonation/plasmadonation:latest
+ibmcloud cr namespace-list
+
+ibmcloud ks cluster ls
+ibmcloud ks cluster config --cluster plasma-14173-1659543653
+ibmcloud ks ingress status -c  plasma-14173-1659543653
+kubectl config current-context
+export KUBECONFIG=$(mktemp)
+ibmcloud ks cluster config -c plasma-14173-1659543653
+echo $KUBECONFIG
+cat $KUBECONFIG
+kubectl get pods
+kubectl get nodes
+kubectl api-resources | grep deployment
+kubectl create -f deployment.yaml
+kubectl create -f service.yaml
+
+kubectl get deploy
+kubectl delete deploy <deployment name>
+kubectl get service
+kubectl delete service <service name>
+
+kubectl describe deployments plasma-14173-1659543653-deployment
+kubectl describe services plasma-14173-1659543653-deployment
+
+https://c108.eu-de.containers.cloud.ibm.com:30197
